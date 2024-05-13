@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+    <title>gaheun's blog</title>
+    <link rel="stylesheet" href="{{url_for('static', path='css/main.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+</head>
+
+<body>
+    <h1 style="text-align: center;">.﹒✩✧✩GAHEUN's blog✩✧✩﹒.</h1>
+    <hr>
+    <p>가흔이네 블로그 온거 <strong>대환영</strong></p>
+
+    <form>
+        <input type="text" placeholder="아이디"><br>
+        <input type="password" placeholder="비밀번호">
+        <input type="button" value="로그인">
+    </form>
+
+    <h3>글 목록</h3>
+    <ul>
+        <li><a href="#poetry" style="color:darkgray">예쁜 시 모음</a></li>
+        <li><a href="#diary" style="color:gray">오늘의 일기</a></li>
+        <li><a href="#todo" style="color:dimgray">TodoList</a></li>
+        <li><a href="#photo" style="color:black">내가 좋아하는 사진들</a></li>
+    </ul>
+
+    <h3 id="poetry">예쁜 시 모음</h3>
+    <ol>
+        <li>풀꽃 - 나태주</li>
+        <li>별 헤는 밤 - 윤동주</li>
+        <li>꽃 - 김춘수</li>
+    </ol>
+
+    <h3 id="diary">오늘의 일기</h3>
+    <div>
+        <div style="font-weight: bold;">2024년 3월 14일 목요일</div>
+        <div>오늘은 잠이 온다. 집에 가고 싶다.</div>
+        <div style="font-weight: bold;">2024년 3월 16일 토요일</div>
+        <div>하루종일 침대에 누워있었다. 행복하다.</div>
+        <div style="font-weight: bold;">2024년 3월 18일 월요일</div>
+        <div>공부를 했다. 힘들다.</div>
+        <div style="font-weight: bold;">2024년 3월 21일 목요일</div>
+        <div>문제해결글쓰기를 듣고있다. 조금재밌따.</div>
+    </div>
+
+    <h3 id="todo">Todo list</h3>
+    <div><i class="fas fa-check-square"></i> font awesome 넣기</div>
+    <div><i class="fas fa-check-square"></i> 이미지 포지션넣고 width height 지정</div>
+    <div><i class="fas fa-check-square"></i> a 링크 사용</div>
+    <div><i class="fas fa-check-square"></i> background, font 사용하기</div>
+    <div><i class="fas fa-check-square"></i> border-radius 사용하기 </div>
+
+    <h3 id="photo">내가 좋아하는 사진들</h3>
+    <img src="./hip_girl.jpeg" alt="와대박">
+    <img src="./rabbit.jpeg" alt="헐대박">
+    <img src="./hiphop.jpeg" alt="짱대박">
+</body>
+
+</html>
